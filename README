@@ -1,0 +1,13 @@
+This is DUNE-Hello, a test project which demonstrates how
+to set up a library to be built using Autotools and the
+dunecontrol utility.
+
+To build this project, use the command:
+
+    dunecontrol all
+
+or use the traditional autotools sequence:
+
+    autoconf -i
+	./configure
+	make all
