@@ -1,0 +1,3 @@
+Module: dune-hello
+Version: 1.0
+Depends: dune-common
