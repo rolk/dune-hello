@@ -35,6 +35,7 @@ AC_CONFIG_FILES([
   Makefile
   m4/Makefile
   lib/Makefile
+  tests/Makefile
   dune/hello/Makefile
   dune-hello.pc
 ])

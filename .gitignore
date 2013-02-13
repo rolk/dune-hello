@@ -10,6 +10,9 @@
 .libs/
 .deps/
 
+# compiled test-cases
+tests/greet
+
 # autogen artifacts
 Makefile.in
 aclocal.m4
