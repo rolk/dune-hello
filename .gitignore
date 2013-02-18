@@ -40,3 +40,13 @@ dune-hello.pc
 dune/hello/.deps/
 libtool
 stamp-h1
+
+# dunedoxynize artifacts
+doc/doxygen/Doxyfile.in
+doc/doxygen/Doxyfile
+doc/doxygen/doxygen-tag
+
+# doxygen artifacts
+doc/doxygen/doxygen.log
+doc/doxygen/doxyerr.log
+doc/doxygen/html/

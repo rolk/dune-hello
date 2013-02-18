@@ -38,6 +38,9 @@ AC_CONFIG_FILES([
   tests/Makefile
   dune/hello/Makefile
   dune-hello.pc
+  doc/Makefile
+  doc/doxygen/Makefile
+  doc/doxygen/Doxyfile
 ])
 AC_OUTPUT
 

@@ -1,7 +1,7 @@
 # we need the module file to be able to build via dunecontrol
 EXTRA_DIST=dune.module
 
-SUBDIRS = m4 dune/hello lib tests
+SUBDIRS = m4 dune/hello lib tests doc
 
 ACLOCAL_AMFLAGS = -I m4
 

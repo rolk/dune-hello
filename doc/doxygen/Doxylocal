@@ -1,0 +1,4 @@
+INPUT                  += @srcdir@/mainpage \
+                          @srcdir@/modules \
+                          @top_srcdir@/dune/
+FILE_PATTERNS          += *.cpp *.hpp
