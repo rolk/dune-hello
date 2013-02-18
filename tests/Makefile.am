@@ -1,11 +1,11 @@
 SUBDIRS =
 
-check_PROGRAMS = greet
+check_PROGRAMS = test_greet
 
-noinst_PROGRAMS = greet
+noinst_PROGRAMS = test_greet
 
-greet_SOURCES = greet.cpp
-greet_LDADD = $(LDADD) ../lib/libdunehello.la
+test_greet_SOURCES = test_greet.cpp
+test_greet_LDADD = $(LDADD) ../lib/libdunehello.la
 
 TESTS = $(check_PROGRAMS)
 

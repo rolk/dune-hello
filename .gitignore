@@ -11,7 +11,7 @@
 .deps/
 
 # compiled test-cases
-tests/greet
+tests/test_greet
 
 # autogen artifacts
 Makefile.in
