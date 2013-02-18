@@ -2,13 +2,13 @@
 # vim: set filetype=cmake autoindent tabstop=2 shiftwidth=2 noexpandtab softtabstop=2 nowrap:
 
 # key information about the library
-set (project "opm-core")
+set (project "dune-hello")
 set (${project}_NAME "${project}")
-set (${project}_DESCRIPTION "Open Porous Media Initiative Core Library")
-set (${project}_DIR "opm")
+set (${project}_DESCRIPTION "DUNE Build Example Project")
+set (${project}_DIR "dune")
 set (${project}_VERSION_MAJOR 1)
 set (${project}_VERSION_MINOR 0)
-set (doxy_dir "Documentation")
+set (doxy_dir "doc/doxygen")
 
 # defines that must be present in config.h for our headers
 set (${project}_CONFIG_VAR
