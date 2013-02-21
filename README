@@ -8,6 +8,5 @@ To build this project, use the command:
 
 or use the traditional autotools sequence:
 
-    autoconf -i
 	./configure
 	make all
