@@ -1,4 +1,4 @@
-INPUT                  += @srcdir@/mainpage \
-                          @srcdir@/modules \
-                          @top_srcdir@/dune/
+INPUT                  += @abs_top_srcdir@/doc/doxygen/mainpage \
+                          @abs_top_srcdir@/doc/doxygen/modules \
+                          @abs_top_srcdir@/dune/
 FILE_PATTERNS          += *.cpp *.hpp
